@@ -1,0 +1,102 @@
+/*----------{Header}----------*/
+header{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    align-items: center; /*Alinea los elementos al centro vertical*/
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista_encabezado{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    margin-right: 50px;
+    
+}
+
+.link_encabezado{
+    background-color: aqua;
+    border-radius: 18%;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+
+
+
+/*----------{Body}----------*/
+body{
+    background-color: white;
+}
+
+
+
+
+.caja{
+    background-color: aqua;
+    margin: 0px;
+    
+}
+
+.tarjeta{
+    background-color: #f3d050;
+    width: 200px;
+    margin: 20px;
+    border-radius: 14px;
+    
+}
+
+.nombre{
+    
+    width: 80px;
+}
+
+.img_tarjeta{
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    width: 90%;
+    display: flex;
+    justify-self: center;
+}
+
+.txt_gratis_targeta{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.enviogratis_tarjeta{
+    background-color: white;
+    width: 35px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 15%;
+    padding: 3px;
+    border: 2px solid;
+}
+
+.txt_tarjeta{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+
+/*----------{Footer}----------*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: blue;
+}
