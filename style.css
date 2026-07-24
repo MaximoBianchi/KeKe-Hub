@@ -130,6 +130,7 @@ body{
 
 .como{
     display: flex;
+    justify-content: space-between;
 }
 
 .como_texto h3{
