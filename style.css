@@ -1,10 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Alien+Block&family=Edu+VIC+WA+NT+Hand&display=swap");
+
+
+
+
+
 /*----------{Header}----------*/
+
+
 header{
-    background-color: whitesmoke;
+    background-color: #FF8F00;
     display: flex;
     justify-content: space-between;
     top: 0px;
     align-items: center; /*Alinea los elementos al centro vertical*/
+    top: 0px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    position: sticky
+    
+    ;
+}
+
+header img{
+    width: 10%;
+    border-bottom-left-radius: 8px;
+}
+
+header li{
+    list-style: none;
+    
+}
+
+header li h1{
+    height: 10px;
+    width: 250px;
 }
 
 header nav{
@@ -17,12 +46,12 @@ header nav{
     display: flex;
     justify-content: space-between;
     width: 420px;
-    margin-right: 50px;
+    margin-right: 32px;
     
 }
 
 .link_encabezado{
-    background-color: aqua;
+    background-color: #C62828;
     border-radius: 18%;
     text-decoration: none;
     padding: 10px;
@@ -35,24 +64,26 @@ header nav{
 
 /*----------{Body}----------*/
 body{
-    background-color: white;
+    background-color: #F5F5DC;
 }
 
 
 
 
 .caja{
-    background-color: aqua;
+    background-color: #F5F5DC;
     margin: 0px;
-    
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
 }
 
 .tarjeta{
     background-color: #f3d050;
     width: 200px;
-    margin: 20px;
     border-radius: 14px;
-    
+
+
 }
 
 .nombre{
@@ -66,6 +97,7 @@ body{
     width: 90%;
     display: flex;
     justify-self: center;
+    margin-top: 20px;
 }
 
 .txt_gratis_targeta{
@@ -89,14 +121,42 @@ body{
 .txt_tarjeta{
     margin-left: 5px;
     margin-right: 5px;
-    
+    width: 200px;
 }
 
+.quien h3{
+    margin-left: 20px;
+}
+
+.como{
+    display: flex;
+}
+
+.como_texto h3{
+    margin-left: 20px;
+}
+
+.como_texto{
+    width: 500px;
+}
+
+
+.como_imajen{
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
 
 /*----------{Footer}----------*/
 footer{
     display: flex;
     justify-content: space-between;
     height: 100px;
-    background-color: blue;
+    background-color: #FBC02D;
+}
+
+footer section{
+    display: contents;
+    justify-content: space-between;
 }
